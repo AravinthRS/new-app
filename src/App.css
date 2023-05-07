@@ -1,0 +1,360 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 460px;
+  font-family: "Mukta", sans-serif;
+}
+/* @media only screen and (min-width: 768px){
+    .header{
+        background-color: #6c6d7b;
+        height: 15vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: fixed;
+        top: 0%;
+        width: 100%;
+    }
+    .manage{
+        text-align: center;
+    }
+    .icons{
+        font-size: 50px
+    }
+    .heading{
+        margin-bottom: -10px;
+    }
+    .icons.profile{
+        background-color: #5898a0;
+        border-radius: 20px;
+    }
+    .footer{
+        position: fixed;
+        bottom: 0%;
+        width: 100%;
+        height: 10vh;
+        background-color: whitesmoke;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        text-align: center;
+    }
+    .icon{
+        margin-top: 10px;
+    }
+    .menu{
+        margin-top: 5px;
+        font-size: 16px;
+    }
+    .icon:hover{
+        font-size: 22px;
+    }
+    .footerIcons{
+        cursor: pointer;
+    }
+    .footerIcons:hover p{
+        font-weight: bold;
+    }
+    .content{
+        margin-top: 15vh;
+        margin-bottom: 10vh;
+    }
+} */
+/* @media only screen and (max-width: 768px){ */
+.header {
+  background-color: #292c31;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.manage {
+  text-align: center;
+}
+.manage p {
+  color: #fcfdfe;
+}
+.icons {
+  font-size: 35px;
+  color: white;
+}
+.icons.profile {
+  background-color: #54eade;
+  border-radius: 20px;
+}
+.heading {
+  margin-bottom: -10px;
+  color: #fcfdfe;
+}
+/* .headericon {
+  
+} */
+.footer {
+  bottom: 0%;
+  position: fixed;
+  bottom: 0%;
+  max-width: 460px;
+  width: 100%;
+  height: 10vh;
+  background-color: #f3f6ff;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  text-align: center;
+}
+.icon {
+  margin-top: 10px;
+  font-size: 18px;
+}
+.menu {
+  margin-top: 5px;
+  font-size: 16px;
+}
+.icon:hover {
+  font-size: 22px;
+  color: #292c33;
+}
+.footerIcons {
+  cursor: pointer;
+}
+.footerIcons:hover p {
+  font-weight: bold;
+  color: #292c33;
+}
+.headericon {
+  border: 1px solid grey;
+  color: #fcfdfe;
+  border: 1px solid grey;
+  border-radius: 100px;
+  padding: 6px 6px 2px 6px;
+}
+.noti {
+  height: 22px;
+  width: 22px;
+}
+.content {
+  margin-top: -35px;
+  margin-bottom: 10vh;
+  background-color: #ebedfc;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 5px 20px 0 20px;
+  max-width: 460px;
+}
+.nav {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.coming-soon {
+  width: 100%;
+  padding: 20px 0;
+}
+.card {
+  height: 170px;
+  width: 45%;
+  background-color: #f9f8fe;
+  border-radius: 15px;
+  max-width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.manageCards {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 0;
+}
+.cardBtnwrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+.cardBtn {
+  background-color: #f3f6ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px 0px;
+  height: 120px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.cardBtn p {
+  text-align: center;
+  font-size: 16px;
+  color: #35383d;
+}
+.cardBtn div {
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carcard {
+  width: 80%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+  padding: 10px;
+}
+.cardServices {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cardServices p {
+  font-size: 12px;
+  font-weight: lighter;
+}
+.cardServices h4 {
+  color: rgb(83, 83, 233);
+}
+/* .cardPaid {
+  padding-left: 15px;
+} */
+.cardVeiwBtn {
+  background-color: black;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  margin: 15px;
+  padding: 10px 15px;
+}
+.servicesCard {
+  padding: 10px 10px 0px 10px;
+}
+.cardOne {
+  height: 170px;
+  width: 45%;
+  background-color: #f9f8fe;
+  border-radius: 15px;
+  max-width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.cardOneSplite {
+  width: 60%;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f8fe;
+  width: 85%;
+  height: 210px;
+  justify-content: space-around;
+  padding: 0px 10px 0px 10px;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+.rowTwo {
+  padding: 0 0 0 15px;
+}
+.shortcuts-icon {
+  margin: 5px;
+  font-size: 24px;
+  padding: 10px;
+  background-color: #e2e5fe;
+  border-radius: 23px;
+  color: #000402;
+}
+#short {
+  color: #979aad;
+  padding: 0 0 0 15px;
+}
+
+.shortcut {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profilePic {
+  height: 120px;
+  width: 125px;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.profile p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.profile ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.profile ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.profile ul li a {
+  color: #333;
+  text-decoration: none;
+}
+.notification {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.notification h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.notification p {
+  margin: 5px 0;
+}
+
+.notification small {
+  color: #888;
+}
+
+.shortcuts-text {
+  font-size: 14px;
+}
+
+.shortcuts-icontext {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: unset;
+}
+
+/* } */
